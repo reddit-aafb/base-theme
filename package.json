@@ -1,0 +1,27 @@
+{
+  "name": "r-aafb-base-theme",
+  "version": "1.0.0",
+  "description": "base theme on reddit.com/r/aafb",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmphry/prototyping.git"
+  },
+  "keywords": [
+    "HMPHRY",
+	"raafb"
+  ],
+  "author": "HMPHRY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reddit-aafb/base-theme"
+  },
+  "homepage": "https://github.com/reddit-aafb/base-theme#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
