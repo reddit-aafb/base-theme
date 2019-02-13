@@ -1,0 +1,73 @@
+
+// AAF Teams
+$aaf-teams:(
+	name:aafb,
+	abbr:AAFB,
+	url:aafb,
+	fg:$aaf-0,
+	bg:$aaf-blue,
+),(
+	name:Hotshots,
+	abbr:ARI,
+	url:ARZHotshots,
+	fg:#FFFFFF,
+	bg:#F7B643,
+	eliminated: false,
+	champion: false
+),(
+	name:Legends,
+	abbr:ATL,
+	url:ATLLegends,
+	fg:#FFFFFF,
+	bg:#8540AD,
+	eliminated: false,
+	champion: false
+),(
+	name:Iron,
+	abbr:BIR,
+	url:BHIron,
+	fg:#FFFFFF,
+	bg:#C4C6C8,
+	eliminated: false,
+	champion: false
+),(
+	name:Express,
+	abbr:MEM,
+	url:MemExpress,
+	fg:#FFFFFF,
+	bg:#D23131,
+	eliminated: false,
+	champion: false
+),(
+	name:Apollos,
+	abbr:ORL,
+	url:OrlApollos,
+	fg:#FFFFFF,
+	bg:#F1813A,
+	eliminated: false,
+	champion: false
+),(
+	name:Stallions,
+	abbr:SLC,
+	url:SLCStallions,
+	fg:#FFFFFF,
+	bg:#3A99CB,
+	eliminated: false,
+	champion: false
+),(
+	name:Commanders,
+	abbr:SA,
+	url:CommandersSA,
+	fg:#FFFFFF,
+	bg:#C3BFBF,
+	eliminated: false,
+	champion: false
+),(
+	name:Fleet,
+	abbr:SD,
+	url:SDFleet,
+	fg:#FFFFFF,
+	bg:#F9C546,
+	eliminated: false,
+	champion: false
+);
