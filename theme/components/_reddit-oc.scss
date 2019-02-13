@@ -1,9 +1,9 @@
-@import "./components/_reddit-oc/_standings.scss";
-@import "./components/_reddit-oc/_sidebar-custom-content.scss";
-@import "./components/_reddit-oc/_important-links.scss";
-@import "./components/_reddit-oc/_user-flair.scss";
-@import "./components/_reddit-oc/_ranker-flair.scss";
-@import "./components/_reddit-oc/_hub_button.scss";
+@import "_reddit-oc/standings";
+@import "_reddit-oc/sidebar-custom-content";
+@import "_reddit-oc/important-links";
+@import "_reddit-oc/user-flair";
+@import "_reddit-oc/ranker-flair";
+@import "_reddit-oc/hub_button";
 
 // temp
-@import "./components/_reddit-oc/_css-ad.scss";
+@import "_reddit-oc/css-ad";
