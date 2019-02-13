@@ -1,6 +1,6 @@
 {
   "name": "r-aafb-base-theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "base theme on reddit.com/r/aafb",
   "main": "gulpfile.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "HMPHRY",
-	"raafb"
+    "raafb"
   ],
   "author": "HMPHRY",
   "license": "ISC",
@@ -20,8 +20,6 @@
     "url": "https://github.com/reddit-aafb/base-theme"
   },
   "homepage": "https://github.com/reddit-aafb/base-theme#readme",
-  "devDependencies": {
-  },
-  "dependencies": {
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
