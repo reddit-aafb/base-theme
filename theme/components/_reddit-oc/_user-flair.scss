@@ -140,11 +140,11 @@ $pos-100:  0%;
 			background-size: contain;
     }
   }
-	.flair-#{$thisName}::after,
-	.md a[href*="/r/#{$thisUrl}"]::after,
-	.md a[href*="/#{$thisAbbr}"]::after,
-	.md a[href*="/#{to-upper-case(#{$thisUrl})}"]::after,
-	.md a[href*="/#{to-upper-case(#{$thisAbbr})}"]::after{
+	.side .flair-#{$thisName}::after,
+	.side a[href*="/r/#{$thisUrl}"]::after,
+	.side a[href*="/#{$thisAbbr}"]::after,
+	.side a[href*="/#{to-upper-case(#{$thisUrl})}"]::after,
+	.side a[href*="/#{to-upper-case(#{$thisAbbr})}"]::after{
 		background: $thisBg;
 	}
   .flair-#{$thisName}.flair-official {
