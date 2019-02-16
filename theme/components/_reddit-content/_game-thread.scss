@@ -26,6 +26,7 @@
   }
   a[href$="#away"]::before{
     @extend %flair-element;
+	margin-right: 20px;
   }
   a[href$="#home"] {
     @extend %text-header;
@@ -36,6 +37,7 @@
   }
   a[href$="#home"]::after{
     @extend %flair-element;
+	margin-left: 20px;
   }
   $pos-80: 0px;
   @each $team in $aaf-teams{
