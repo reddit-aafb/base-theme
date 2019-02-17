@@ -125,6 +125,7 @@ $pos-100:  0%;
 		}
 	}
   .flair-#{$thisName}::before,
+  .flair-#{to-lower-case($thisName)}::before,
   .md a[href*="/r/#{$thisUrl}"]::before,
   .md a[href*="/#{$thisAbbr}"]::before,
   .md a[href*="/#{to-upper-case(#{$thisUrl})}"]::before,
