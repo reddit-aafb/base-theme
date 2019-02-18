@@ -19,15 +19,15 @@
     height: 25px;
     width: 25px;
     margin-right: 5px;
-		background-image: url("../img/link-flair.png");
+		background-image: url(#{$post-icons});
     background-size: 75px;
     vertical-align: middle;
   }
 }
 .stickied{
-  .title > .title{
+	.title > .title{
 		color: $aaf-red !important;
-    font-weight: 700 !important;
+		font-weight: 700 !important;
 	}
 }
 // Game Threads

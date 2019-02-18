@@ -36,7 +36,7 @@
 		height: 10px;
 		width: 15px;
 		margin: -2px 8px 0;
-		background-image: url("../img/reddit-icons.png");
+		background-image: url(#{$reddit-icons});
 		background-position: 0 -50px;
 		background-size: 50px;
 	}
@@ -62,7 +62,7 @@
 		height: 12px;
 		width: 12px;
 		margin: 2px 8px 0 0;
-		background-image: url("../img/reddit-icons.png");
+		background-image: url(#{$reddit-icons});
 		background-position: 0 -75px;
 		background-size: 50px;
 	}
