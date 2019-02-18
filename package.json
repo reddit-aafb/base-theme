@@ -1,6 +1,6 @@
 {
   "name": "r-aafb-base-theme",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "base theme on reddit.com/r/aafb",
   "main": "gulpfile.js",
   "scripts": {
