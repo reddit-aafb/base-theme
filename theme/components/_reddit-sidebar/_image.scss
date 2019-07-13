@@ -44,7 +44,7 @@ $totalPromoHeight: 0;
 
 @each $p in $promos {
 	a[title="#{map-get($p, target)}"]{
-		@if map-has-key($p, position) {
+		@if map-get($p, position) == true {
 			position: absolute;
 			top: $spaceAboveLinks + $totalPromoHeight + $spaceOfLinks;
 			$totalPromoHeight: $totalPromoHeight + map-get($p, height) + 20px;
