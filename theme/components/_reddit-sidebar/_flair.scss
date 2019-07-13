@@ -18,19 +18,20 @@
 		display: block;
 		height: 17px;
 		width: 17px;
-		background-image: url(#{$aaf-icons});
+		background-image: url(#{$team-icons});
 		background-position: 0 0;
 		background-size: 17px;
-		opacity: .4;
+		opacity: .7;
+		transition: opacity .3s ease-out;
 	}
 	&:hover:before{
-		background-image: url(#{$aaf-icons});
+		background-image: url(#{$team-icons});
 		opacity: 1;
 	}
 }
 
 $pos-17:0;
-@each $team in $aaf-teams {
+@each $team in $nfl-teams {
 	.titlebox .tagline .flair-#{map-get($team, name)} ~ .flairselectbtn::before{
 		background-position: 0 $pos-17;
 	}

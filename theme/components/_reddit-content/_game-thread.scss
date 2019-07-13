@@ -11,7 +11,7 @@
     vertical-align: middle;
     height: 80px;
     width: 80px;
-    background-image: url(#{$aaf-icons});
+    background-image: url(#{$team-icons--large});
     background-size: 80px;
   }
 
@@ -40,7 +40,7 @@
 	margin-left: 20px;
   }
   $pos-80: 0px;
-  @each $team in $aaf-teams{
+  @each $team in $nfl-teams{
     $thisName: map-get($team, name);
     $thisAbbr: map-get($team, abbr);
     $thisUrl: map-get($team, url);

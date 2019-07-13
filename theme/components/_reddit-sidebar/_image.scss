@@ -44,20 +44,25 @@ $totalPromoHeight: 0;
 
 @each $p in $promos {
 	a[title="#{map-get($p, target)}"]{
-		@if map-get($p, position) == true {
-			position: absolute;
-			top: $spaceAboveLinks + $totalPromoHeight + $spaceOfLinks;
-			$totalPromoHeight: $totalPromoHeight + map-get($p, height) + 20px;
-		} @else{
-			margin: 20px 0;
+		&{
+			@if map-get($p, position) == true {
+				position: absolute;
+				top: $spaceAboveLinks + $totalPromoHeight + $spaceOfLinks;
+				$totalPromoHeight: $totalPromoHeight + map-get($p, height) + 20px;
+			} @else{
+				margin: 20px 0;
+			}
+			display: block;
+			height: map-get($p, height);
+			width: 300px;
+			background-image: url(map-get($p, image));
+			background-repeat: no-repeat;
+			background-size: 100%;
+			font-size: 0;
 		}
-		display: block;
-		height: map-get($p, height);
-		width: 300px;
-		background-image: url(map-get($p, image));
-		background-repeat: no-repeat;
-		background-size: 100%;
-		font-size: 0;
+		&::before{
+			display: none !important;
+		}
 	}
 }
 
