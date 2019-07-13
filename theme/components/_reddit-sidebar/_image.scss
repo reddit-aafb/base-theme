@@ -62,5 +62,5 @@ $totalPromoHeight: 0;
 }
 
 &::before{
-	margin: ($totalPromoHeight + $sidebarPicOffset + ($sidebarLinksCount * $sidebarLinksHeight) + 20px) 20px 20px;
+	margin: ($totalPromoHeight + $sidebarPicOffset + ($sidebarLinksCount * $sidebarLinksHeight) + 40px) 20px 20px;
 }
